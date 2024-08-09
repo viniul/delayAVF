@@ -1,0 +1,22 @@
+[package]
+name = "delay_fault_simulator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+petgraph = "0.6.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = {version="1.0", features = ["std"] }
+indicatif = {version = "*", features = ["rayon"]}
+# indicatif = "0.17.6"
+rayon = "1.7.0"
+itertools = "*"
+itertools-num = "0.1"
+clap = "3.0"
+smallvec = "*"
+
+[profile.release]
+debug = 0
+#debug-assertions = true

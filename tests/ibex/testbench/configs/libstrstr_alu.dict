@@ -1,0 +1,15 @@
+{
+    "synth_file": "syn_out/ibex_top_netlist.v",
+    "sub_synth_file": "syn_out/ibex_top_submodule_netlist.v",
+    "submodule_name": "ibex_alu",
+    "short_submodule_name": "alu",
+    "pdk_path": "../../../tech_libraries/nangate45/lib/NangateOpenCellLibrary_typical_nocomplex.lib",
+    "top_path": "TOP.sim_top.dut.cpu.cpu.",
+    "clk_path": "TOP.sim_top.dut.cpu.cpu.clk_i",
+    "hex_payload": "../../benchmarks/ported_beebs_benchmarks/libstrstr.hex",
+  "delay_range": [0.9],
+    "percent_sampled_cycles_delay": 2,
+    "percent_sampled_cycles_particle": 1,
+    "output_dir": "beeps_benchmark_data/results/libstrstr/alu/",
+    "ecc_on": 0
+}
