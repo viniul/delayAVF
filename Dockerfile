@@ -17,5 +17,4 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
 RUN dnf install -y stack 
 RUN git clone https://github.com/zachjs/sv2v.git /tmp/sv2v  && cd /tmp/sv2v && make && stack install
 RUN dnf install -y swig eigen3
-RUN git clone https://github.com/The-OpenROAD-Project/OpenSTA.git && cd OpenSTA && mkdir build && cd build && cmake .. && make -j && make install
-
+RUN git clone https://github.com/The-OpenROAD-Project/OpenSTA.git && cd OpenSTA && git checkout 7358e26 && mkdir build && cd build && cmake .. && make -j && make install
