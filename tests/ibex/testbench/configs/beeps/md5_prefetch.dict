@@ -1,0 +1,25 @@
+{
+    "synth_file": "syn_out/ibex_top_netlist.v",
+    "sub_synth_file": "syn_out/ibex_top_submodule_netlist.v",
+    "submodule_name": "ibex_prefetch",
+    "short_submodule_name": "prefetch",
+    "pdk_path": "../../../tech_libraries/nangate45/lib/NangateOpenCellLibrary_typical_nocomplex.lib",
+    "top_path": "TOP.sim_top.dut.cpu.cpu.",
+    "clk_path": "TOP.sim_top.dut.cpu.cpu.clk_i",
+    "hex_payload": "../../benchmarks/ported_beebs_benchmarks/md5.hex",
+    "delay_range": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+    ],
+    "percent_sampled_cycles_delay": 4,
+    "percent_sampled_cycles_particle": 50,
+    "ecc_on": 0,
+    "output_dir": "beeps_benchmark_data/results/md5/prefetch/"
+}
