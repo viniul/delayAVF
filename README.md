@@ -12,7 +12,7 @@ This is the artifact for DelayAVF: Calculating Architectural Vulnerability Facto
 ## Analyzing the Ibex Core 
 
 To analyze the DelayFaultAVF of a given Ibex structure with respect to a certain benchmark, run the following code:
-1. First, build and launch the docker container through the script `./build_and_run_docker.sh`. You will be dropped into a docker shell. 
+1. First, run `git submodule init && git submodule update` and then  build and launch the docker container through the script `./build_and_run_docker.sh`. You will be dropped into a docker shell. 
 2. Now, cd into `tests/ibex/testbench/`. 
 3. Pick a configuration that you want to run. A configuration is a json file, describing the parameters of the fault injection campaign like so. The micro configuration files are provided in 
 `tests/ibex/testbench/configs/beeps`. The configuration file to be read as follows:
