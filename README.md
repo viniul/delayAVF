@@ -1,5 +1,5 @@
 # Artifact For: DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults
-This is the artifact for DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults. The artifact contains the SDF-injection framework, scripts to synthesize and analyze the Ibex core, and the source code for the benchmarks. A dockerfile to run the pipeline is included for convenience. Note the ibex submodule, so please run `git submodule init && git submodule update` initially.
+This is the artifact for DelayAVF: Calculating Architectural Vulnerability Factors for Delay Faults, paper [here](https://people.csail.mit.edu/mengjia/data/2024.MICRO.DelayAVF.pdf). The artifact contains the SDF-injection framework, scripts to synthesize and analyze the Ibex core, and the source code for the benchmarks. A dockerfile to run the pipeline is included for convenience. Note the ibex submodule, so please run `git submodule init && git submodule update` initially.
 
 ## Contained  Code:
 
